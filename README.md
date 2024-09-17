@@ -2,7 +2,7 @@
 
 ## Instructions
 
-**This assignment has multiple steps, please read them completly and thoroughly**
+**This assignment has multiple steps, please read them completely and thoroughly**
 
 
 Objective: Write 3 Psuedocode Programs
