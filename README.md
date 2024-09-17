@@ -12,8 +12,13 @@ Objective: Write 3 Psuedocode Programs
 - Fork this repository to your GitHub account
 - Complete each of the **3** exercises by updating the correct file that matches the exercise letter.
     - For Example: **Exercise A** should be written in the the file **exercise-a.txt**
+- Update and Sync your local respository to GitHub.
+- Turn in the link to your repository in the assignment in Google Classroom.
 
 
+
+## Exercises
+---
 
 ### Exercise A: Count to 100 by Twos
 
