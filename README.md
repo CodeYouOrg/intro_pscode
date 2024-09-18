@@ -3,10 +3,10 @@
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
 ## **Overview:**
-You are tasked with writing **pseudocode** for **3** new programs for **3** different clients The pseudocode will then be added to a presentation for the client. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team to share.
+You are tasked with writing **pseudocode** for **3** new programs for **3** different clients. The pseudocode will then be added to a presentation for each client. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
 
 ## **Objective:**
-Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the team can add them to the presentations.
+Write **three (3)** psuedocode programs, and get them synced to GitHub so the team can add them to the presentations.
 
 - [ ] Review the following **3** client tasks. (Task A, Task B, Task C)
 - [ ] Fork this repository (**https://github.com/CodeYouOrg/intro_pscode**) to your own GitHub account.
@@ -19,23 +19,7 @@ Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the te
 
 ## Client Tasks
 
-### Task A: Count to 100 by Twos
-
-**Task:** Write pseudocode to print numbers from 2 to 100, counting by twos.
-
-**Hint:** Loops
-
----
-
-### Task B: Treasure Hunt
-
-**Task:** Design pseudocode to find hidden treasure. The player can move north, south, east, or west.
-
-**Hints:** Loops, Variables
-
----
-
-### Task C: Guess the Number Game
+### Task A: Guess the Number Game
 
 **Task:** Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
 
@@ -43,7 +27,30 @@ Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the te
 
 ---
 
-## Operators Guide
+### Task B: Find the Spot
+
+**Task:** Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+**Hints:** Loops, Variables
+
+---
+
+### Task C: Product Package Counter
+
+**Task:** You need to develop a program that counts the number of items that it scans to sort for boxing into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+**Hint:** Loops
+
+---
+
+## Notes and Operators Guide
+
+### Notes
+
+- XXXX.
+- XXXX.
+- XXXX.
+- XXXX.
 
 ### Arithmetic Operators
 
