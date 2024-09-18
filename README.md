@@ -4,7 +4,7 @@
 
 **This assignment has multiple steps, please read them completely and thoroughly**
 
-**Objective: Write 3 Psuedocode Programs
+**Objective:** Write **Three** Psuedocode Programs
 
 - [ ] Review the following **3** exercises
 - [ ] Fork this repository to your GitHub account
