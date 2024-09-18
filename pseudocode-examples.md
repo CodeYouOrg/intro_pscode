@@ -21,7 +21,12 @@ else:
     display_login_page()
 ```
 
-#### JavaScript Code (real)
+- **Explanation**: 
+  - The code checks if the user is logged in using a method `is_logged_in()` on the `user` object. If the user is logged in, their personalized dashboard is displayed using the `display_dashboard()` function. If they are not logged in, the `display_login_page()` function is called to show the login screen.
+
+---
+
+### **JavaScript Example**:
 ```javascript
 // Check if the user is logged in
 if (user.isLoggedIn()) {
@@ -33,8 +38,15 @@ if (user.isLoggedIn()) {
 }
 ```
 
-#### C# Code (real)
-```c#
+- **Explanation**: 
+  - The `user.isLoggedIn()` function checks if the user is logged in.
+  - If the user is logged in, the `displayDashboard(user)` function is called to display the dashboard.
+  - Otherwise, the `displayLoginPage()` function is called to display the login page.
+
+---
+
+### **C# Example**:
+```csharp
 // Check if the user is logged in
 if (user.IsLoggedIn())
 {
@@ -47,6 +59,11 @@ else
     DisplayLoginPage();
 }
 ```
+
+- **Explanation**: 
+  - `IsLoggedIn()` is a method that checks if the user is logged in.
+  - `DisplayDashboard(user)` is called if the user is logged in, and `DisplayLoginPage()` is called otherwise.
+
 ---
 
 ## Example 2 - Variable & While Loop
