@@ -4,18 +4,15 @@
 
 **This assignment has multiple steps, please read them completely and thoroughly**
 
-
-Objective: Write 3 Psuedocode Programs
+**Objective: Write 3 Psuedocode Programs
 
 
 - Review the following **3** exercises
 - Fork this repository to your GitHub account
 - Complete each of the **3** exercises by updating the correct file that matches the exercise letter.
     - For Example: **Exercise A** should be written in the the file **exercise-a.txt**
-- Update and Sync your local respository to GitHub. (example: https://github.com/your-github-username/intro_pscode)
+- Update and Sync your local repository to GitHub. (example: **https://github.com/your-github-username/intro_pscode**)
 - Turn in the link to your repository in the assignment in Google Classroom.
-
-
 
 ## Exercises
 ---
