@@ -15,10 +15,7 @@ Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the te
 - [ ] Update and sync your local repository to GitHub.
 - [ ] Copy the link to your repository. (*example: **https://github.com/your-github-username/intro_pscode***)
 - [ ] Turn in the link to your repository of the assignment in [Google Classroom](https://classroom.google.com/).
-
-
-
-
+- [ ] Practice more...
 
 ## Client Tasks
 
@@ -65,7 +62,6 @@ Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the te
 | && | AND (a&&b) | This operator returns TRUE only if both the operands are TRUE or if both the conditions are satisfied. It not, it returns FALSE. |
 | || | OR (a||b) | This operator returns TRUE if either operand is TRUE. It also returns TRUE if both the operands are TRUE. If neither operand is true, it returns FALSE. |
 | ! | NOT (!a) | This unary operator returns TRUE if the operand is FALSE and vice versa. It is used to reverse the logical state of its (single) operand. |
-
 
 ### Relational Operators
 
