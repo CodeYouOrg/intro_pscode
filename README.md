@@ -15,7 +15,6 @@
 - Turn in the link to your repository in the assignment in Google Classroom.
 
 ## Exercises
----
 
 ### Exercise A: Count to 100 by Twos
 
