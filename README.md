@@ -4,7 +4,7 @@
 
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
-Overview: You are tasked with writing **pseudocode** for **3** new programs for **3** different clients. Review each of the the three tasks and prioritize them for yourself. You are then tasked with writing the pseudocode for the three client presentations.
+**Overview:** You are tasked with writing **pseudocode** for **3** new programs for **3** different clients. Review each of the the three tasks and prioritize them for yourself. You are then tasked with writing the pseudocode for the three client presentations.
 
 **Objective:** Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the team can add them to the presentations.
 
