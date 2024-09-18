@@ -1,36 +1,6 @@
-### What Pseudocode **Is**:
+# Example of Pseudocode vs Real Code:
 
-1. **A Simplified, Human-Readable Outline:**
-   - Pseudocode is a way to describe the steps or logic of a program in plain language, without using the specific syntax of any programming language. It's designed to be easy for people to understand, even if they don't know the code itself.
-
-2. **A Focus on Logic and Structure:**
-   - It focuses on the flow of a program or algorithm, highlighting key programming concepts like loops, conditionals, functions, etc. It doesn’t worry about technical details like syntax or data types.
-
-3. **A Planning Tool:**
-   - Pseudocode is often used in the early stages of development to plan how the program will work. It's great for outlining a solution before diving into writing actual code.
-
-4. **Flexible and Informal:**
-   - There's no strict "right" way to write pseudocode. You can format it however it makes sense to you and the people you're working with. The goal is clarity, not precision.
-
----
-
-### What Pseudocode **Is Not**:
-
-1. **Not Actual Code:**
-   - Pseudocode cannot be executed by a computer. It’s not written in any programming language, and there are no syntax rules that need to be followed. Its purpose is purely for humans to read and understand the logic.
-
-2. **Not Syntax-Specific:**
-   - Unlike real code, pseudocode doesn’t adhere to the rules of any particular programming language. You don’t need to worry about semicolons, brackets, or the exact way functions are called.
-
-3. **Not Concerned with Low-Level Details:**
-   - Pseudocode does not deal with implementation details like memory management, variable declarations, or optimizing the performance of the code. It focuses on the logic, not the technicalities.
-
-4. **Not Final or Perfect:**
-   - It's meant to evolve. Pseudocode is often used as a draft to organize thoughts, so it’s perfectly fine to revise and refine it as you progress towards writing real code.
-
----
-
-### Example of Pseudocode vs Real Code:
+## Example 1 - Basic Login Logic
 
 #### Pseudocode:
 ```
@@ -77,6 +47,82 @@ else
     DisplayLoginPage();
 }
 ```
+---
+
+## Example 2 - Variable & While Loop
 
 
-In pseudocode, the focus is on understanding **what** the program is doing, not **how** it’s written in a specific language.
+### **Pseudocode**:
+```
+START
+Set variable 'i' to 1
+WHILE 'i' is less than or equal to 5
+    Print 'i'
+    Increment 'i' by 1
+END WHILE
+END
+```
+
+---
+
+### **Python Example**:
+```python
+# Set variable i to 1
+i = 1
+
+# While i is less than or equal to 5
+while i <= 5:
+    # Print i
+    print(i)
+    # Increment i by 1
+    i += 1
+```
+
+- **Explanation**:
+  - A `while` loop is used to print the value of `i` from 1 to 5.
+  - The loop continues as long as `i` is less than or equal to 5.
+  - The variable `i` is incremented by 1 in each iteration.
+
+---
+
+### **C# Example**:
+```csharp
+// Set variable i to 1
+int i = 1;
+
+// While i is less than or equal to 5
+while (i <= 5)
+{
+    // Print i
+    Console.WriteLine(i);
+    // Increment i by 1
+    i++;
+}
+```
+
+- **Explanation**:
+  - Similar to Python, a `while` loop is used.
+  - The `Console.WriteLine(i);` statement prints the value of `i` in each iteration.
+  - The variable `i` is incremented by 1 using `i++`.
+
+---
+
+### **JavaScript Example**:
+```javascript
+// Set variable i to 1
+let i = 1;
+
+// While i is less than or equal to 5
+while (i <= 5) {
+    // Print i
+    console.log(i);
+    // Increment i by 1
+    i++;
+}
+```
+
+- **Explanation**:
+  - In JavaScript, the `console.log(i);` statement is used to print the value of `i` to the console.
+  - A `while` loop runs as long as `i` is less than or equal to 5, incrementing `i` by 1 after each iteration.
+
+Each language handles the loop and printing in a slightly different way, but they all follow the same logic outlined in the pseudocode.

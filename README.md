@@ -50,7 +50,7 @@ Write **three (3)** psuedocode programs, and get them synced to GitHub so the te
 - Please refer to any previous materials for help.
 - These are exercises to get used to the process of writing pseudocode and real syntax. When you build a house you start with a blueprint of the house. Pseudocode is the blueprint for your program.
 - Elements of syntax may be used in your pseudocode, but it should not be all code.
-- Write the psuedocode for the client that doesnt know anything about programing.
+- Write the psuedocode for the client that doesnt know much about programing beyond basic concepts.
 
 #### What Pseudocode is:
 
