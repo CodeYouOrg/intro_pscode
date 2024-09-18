@@ -1,11 +1,12 @@
-# Pseudocode vs Real Code Examples:
+# Pseudocode vs Real Code Examples
 
 ## Example 1 - Basic Login Logic
 
 Check if a user is logged in and display either a dashboard or a login page based on their login status.
 
-### Pseudocode:
-```
+### Pseudocode:**
+
+```bash
 START
 Check if the user is logged in
 IF logged in
@@ -15,7 +16,8 @@ ELSE
 END
 ```
 
-### Python Code (real):
+### Python Example:**
+
 ```python
 if user.is_logged_in():
     display_dashboard(user)
@@ -23,15 +25,16 @@ else:
     display_login_page()
 ```
 
-**Explanation**: 
+**Explanation:**
 
-- The code checks if the user is logged in using a method `is_logged_in()` on the `user` object. 
+- The code checks if the user is logged in using a method `is_logged_in()` on the `user` object.
 - If the user is logged in, their personalized dashboard is displayed using the `display_dashboard()` function.
 - If they are not logged in, the `display_login_page()` function is called to show the login screen.
 
 ---
 
-### **JavaScript Example**:
+### **JavaScript Example:**
+
 ```javascript
 // Check if the user is logged in
 if (user.isLoggedIn()) {
@@ -43,14 +46,16 @@ if (user.isLoggedIn()) {
 }
 ```
 
-**Explanation**: 
+**Explanation:**
+
 - The `user.isLoggedIn()` function checks if the user is logged in.
 - If the user is logged in, the `displayDashboard(user)` function is called to display the dashboard.
 - Otherwise, the `displayLoginPage()` function is called to display the login page.
 
 ---
 
-### **C# Example**:
+### **C# Example:**
+
 ```csharp
 // Check if the user is logged in
 if (user.IsLoggedIn())
@@ -65,7 +70,8 @@ else
 }
 ```
 
-**Explanation**: 
+**Explanation:**
+
 - `IsLoggedIn()` is a method that checks if the user is logged in.
 - `DisplayDashboard(user)` is called if the user is logged in, and `DisplayLoginPage()` is called otherwise.
 
@@ -75,8 +81,9 @@ else
 
 Use a variable and a loop to output numbers from 1 to 5.
 
-### **Pseudocode**:
-```
+### **Pseudocode:**
+
+```bash
 START
 Set variable 'i' to 1
 WHILE 'i' is less than or equal to 5
@@ -88,7 +95,8 @@ END
 
 ---
 
-### **Python Example**:
+### **Python Example:**
+
 ```python
 # Set variable i to 1
 i = 1
@@ -101,14 +109,16 @@ while i <= 5:
     i += 1
 ```
 
-**Explanation**:
+**Explanation:**
+
 - A `while` loop is used to print the value of `i` from 1 to 5.
 - The loop continues as long as `i` is less than or equal to 5.
 - The variable `i` is incremented by 1 in each iteration.
 
 ---
 
-### **C# Example**:
+### **C# Example:**
+
 ```csharp
 // Set variable i to 1
 int i = 1;
@@ -123,14 +133,16 @@ while (i <= 5)
 }
 ```
 
-**Explanation**:
+**Explanation:**
+
 - Similar to Python, a `while` loop is used.
 - The `Console.WriteLine(i);` statement prints the value of `i` in each iteration.
 - The variable `i` is incremented by 1 using `i++`.
 
 ---
 
-### **JavaScript Example**:
+### **JavaScript Example:**
+
 ```javascript
 // Set variable i to 1
 let i = 1;
@@ -144,7 +156,8 @@ while (i <= 5) {
 }
 ```
 
-**Explanation**:
+**Explanation:**
+
 - In JavaScript, the `console.log(i);` statement is used to print the value of `i` to the console.
 - A `while` loop runs as long as `i` is less than or equal to 5, incrementing `i` by 1 after each iteration.
 
