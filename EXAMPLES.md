@@ -2,6 +2,8 @@
 
 ## Example 1 - Basic Login Logic
 
+Check if a user is logged in and display either a dashboard or a login page based on their login status.
+
 ### Pseudocode:
 ```
 START
@@ -70,6 +72,8 @@ else
 ---
 
 ## Example 2 - Variable & While Loop
+
+Use a variable and a loop to output numbers from 1 to 5.
 
 ### **Pseudocode**:
 ```
