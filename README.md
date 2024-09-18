@@ -8,7 +8,7 @@
 
 - [ ] Review the following **3** exercises
 - [ ] Fork this repository to your GitHub account
-- [ ]Complete each of the **3** exercises by updating the correct file that matches the exercise letter. (example: **Exercise A** should be written in the the file **exercise-a.txt**)
+- [ ] Complete each of the **3** exercises by updating the correct file that matches the exercise letter. (example: **Exercise A** should be written in the the file **exercise-a.txt**)
 - [ ] Update and Sync your local repository to GitHub.
 - [ ] Copy the link to your repository (example: **https://github.com/your-github-username/intro_pscode**)
 - [ ] Turn in the link to your repository in the assignment in Google Classroom.
