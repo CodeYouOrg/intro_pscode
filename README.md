@@ -3,7 +3,7 @@
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
 ## **Overview:**
-You are tasked with writing **pseudocode** for **3** new programs for **3** different clients. The pseudocode will then be added to a presentation for each client. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
+You are tasked with writing **pseudocode** for **3** new programs for different clients. The pseudocode will then be added to a presentation for each client. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
 
 ## **Objective:**
 Write **three (3)** psuedocode programs, and get them synced to GitHub so the team can add them to the presentations.
@@ -37,7 +37,7 @@ Write **three (3)** psuedocode programs, and get them synced to GitHub so the te
 
 ### Task C: Product Package Counter
 
-**Task:** You need to develop a program that counts the number of items that it scans to sort for boxing into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+**Task:** You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
 
 **Hint:** Loops
 
@@ -47,10 +47,10 @@ Write **three (3)** psuedocode programs, and get them synced to GitHub so the te
 
 ### Notes
 
-- XXXX.
-- XXXX.
-- XXXX.
-- XXXX.
+- Please refer to any previous materials for help.
+- These are exercises to get used to the process of writing pseudocode and real syntax. When you build a house you start with a blueprint of the house. Pseudocode is the blueprint for your program.
+- Elements of syntax may be used in your pseudocode, but it should not be all code.
+- Write the psuedocode for the client that doesnt know anything about programing.
 
 ### Arithmetic Operators
 
