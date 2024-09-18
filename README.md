@@ -6,6 +6,8 @@
 
 **Objective:** Write ==Three (3)== Psuedocode Programs.
 
+==very important words==
+
 - [ ] Review the following **3** exercises.
 - [ ] Fork this repository to your GitHub account.
 - [ ] Clone the repository down to your local projects folder.
