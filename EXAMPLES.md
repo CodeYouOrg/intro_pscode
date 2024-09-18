@@ -4,7 +4,7 @@
 
 Check if a user is logged in and display either a dashboard or a login page based on their login status.
 
-### Pseudocode:**
+### **Pseudocode:**
 
 ```bash
 START
@@ -16,7 +16,7 @@ ELSE
 END
 ```
 
-### Python Example:**
+### **Python Example:**
 
 ```python
 if user.is_logged_in():
