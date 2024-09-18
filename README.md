@@ -6,12 +6,13 @@
 
 **Objective:** Write **Three** Psuedocode Programs
 
-- [ ] Review the following **3** exercises
-- [ ] Fork this repository to your GitHub account
+- [ ] Review the following **3** exercises.
+- [ ] Fork this repository to your GitHub account.
+- [ ] Clone the repository down to your local projects folder.
 - [ ] Complete each of the **3** exercises by updating the correct file that matches the exercise letter. (example: **Exercise A** should be written in the the file **exercise-a.txt**)
 - [ ] Update and Sync your local repository to GitHub.
-- [ ] Copy the link to your repository (example: **https://github.com/your-github-username/intro_pscode**)
-- [ ] Turn in the link to your repository in the assignment in Google Classroom.
+- [ ] Copy the link to your repository. (example: **https://github.com/your-github-username/intro_pscode**)
+- [ ] Turn in the link to your repository in the assignment in [Google Classroom](https://classroom.google.com/).
 
 ## Exercises
 
