@@ -1,4 +1,6 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+ 1 for every value within 50 increment the counter value by 2.
+ 2 Print counter value until the loop ends.
+ 3 Exit program.

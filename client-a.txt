@@ -2,3 +2,14 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+   
+	 1 Prompt user for number that is between 1 and 10. 
+	  Check if the number is between 1 and 10.
+            *If the number is not between 1 and 10 prompt the user again.
+      
+	 2 generate a random number between 1 and 10.
+       
+       3 Check if the guessed number is the number generated. Give the 
+	   user three chances.
+         * if the user uses up all the chances the game ends.
+         * If the guessed number entered is the generated number tell the user they 	win and the game exits.

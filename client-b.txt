@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+	1 Generate list of directions based on the cardinal directions to the 
+		target location
+	2 loop through the directions:
+           * print the current direction.
+      3 Exit program.
