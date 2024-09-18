@@ -22,7 +22,9 @@ else:
 ```
 
 - **Explanation**: 
-  - The code checks if the user is logged in using a method `is_logged_in()` on the `user` object. If the user is logged in, their personalized dashboard is displayed using the `display_dashboard()` function. If they are not logged in, the `display_login_page()` function is called to show the login screen.
+  - The code checks if the user is logged in using a method `is_logged_in()` on the `user` object. 
+  - If the user is logged in, their personalized dashboard is displayed using the `display_dashboard()` function.
+  - If they are not logged in, the `display_login_page()` function is called to show the login screen.
 
 ---
 
