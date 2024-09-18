@@ -1,25 +1,24 @@
-# Pseudocode Exercises
+# Pseudocode Tasks
 
 ## Instructions
 
-**This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*.**
+**This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
+
+Overview: You are tasked with writing **pseudocode** for **3** new programs for **3** different clients. Review each of the the three tasks and prioritize them for yourself. You are then tasked with writing the pseudocode for the three client presentations.
 
 **Objective:** Write **Three (3)** Psuedocode Programs.
 
-- [ ] Review the following **3** exercises.
+- [ ] Review the following **3** exercises. (Task 1, Task 2, Task 3)
 - [ ] Fork this repository to your GitHub account.
 - [ ] Clone the repository down to your local projects folder.
-- [ ] Complete each of the **3** exercises by updating the correct file that matches the exercise letter. (*example: **Exercise A** should be written in the the file **exercise-a.txt***)
+- [ ] Complete each of the **3** exercises by updating the correct file that matches the task and client letters. (*example: **Task A** should be written in the the file **client-a.txt***)
 - [ ] Update and Sync your local repository to GitHub.
 - [ ] Copy the link to your repository. (*example: **https://github.com/your-github-username/intro_pscode***)
 - [ ] Turn in the link to your repository in the assignment in [Google Classroom](https://classroom.google.com/).
 
+## Client Tasks
 
----
-
-## Exercises
-
-### Exercise A: Count to 100 by Twos
+### Task A: Count to 100 by Twos
 
 **Task:** Write pseudocode to print numbers from 2 to 100, counting by twos.
 
@@ -27,7 +26,7 @@
 
 ---
 
-### Exercise B: Treasure Hunt
+### Task B: Treasure Hunt
 
 **Task:** Design pseudocode to find hidden treasure. The player can move north, south, east, or west.
 
@@ -35,7 +34,7 @@
 
 ---
 
-### Excercise C: Guess the Number Game
+### Task C: Guess the Number Game
 
 **Task:** Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
 
