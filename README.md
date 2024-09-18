@@ -10,8 +10,8 @@ You are tasked with writing **pseudocode** for **3** new programs for **3** diff
 **Objective:**
 Write **Three (3)** Psuedocode Programs, and get them synced to GitHub so the team can add them to the presentations.
 
-- [ ] Review the following **3** tasks. (Task A, Task B, Task C)
-- [ ] Fork this repository (**https://github.com/CodeYouOrg/intro_pscode**) to your GitHub account.
+- [ ] Review the following **3** client tasks. (Task A, Task B, Task C)
+- [ ] Fork this repository (**https://github.com/CodeYouOrg/intro_pscode**) to your own GitHub account.
 - [ ] Clone the repository down to your local projects folder.
 - [ ] Complete each of the **3** tasks by updating the correct file that matches the task and client. (*example: **Task A** should be written in the the file **client-a.txt***)
 - [ ] Update and sync your local repository to GitHub.
