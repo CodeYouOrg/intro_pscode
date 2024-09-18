@@ -1,6 +1,4 @@
-# Pseudocode Tasks
-
-## Instructions
+# Pseudocode Task Instructions
 
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
