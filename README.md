@@ -6,7 +6,6 @@
 
 **Objective: Write 3 Psuedocode Programs
 
-
 - Review the following **3** exercises
 - Fork this repository to your GitHub account
 - Complete each of the **3** exercises by updating the correct file that matches the exercise letter.
