@@ -1,4 +1,4 @@
 # Client Task A #
-# Please complete the pseudocode task below the line: #
+# Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
