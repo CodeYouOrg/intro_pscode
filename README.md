@@ -2,7 +2,7 @@
 
 ## Instructions
 
-**This assignment has multiple steps, please read them completely and thoroughly**
+**This assignment has multiple steps, please read them completely and thoroughly.**
 
 **Objective:** Write **Three** Psuedocode Programs
 
@@ -39,7 +39,6 @@
 **Hints:** Input/output, conditional logic
 
 ---
-
 
 ## Operators Guide
 
