@@ -4,9 +4,7 @@
 
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*.**
 
-**Objective:** Write ==Three (3)== Psuedocode Programs.
-
-==very important words==
+**Objective:** Write **Three (3)** Psuedocode Programs.
 
 - [ ] Review the following **3** exercises.
 - [ ] Fork this repository to your GitHub account.
@@ -15,6 +13,9 @@
 - [ ] Update and Sync your local repository to GitHub.
 - [ ] Copy the link to your repository. (*example: **https://github.com/your-github-username/intro_pscode***)
 - [ ] Turn in the link to your repository in the assignment in [Google Classroom](https://classroom.google.com/).
+
+
+---
 
 ## Exercises
 
