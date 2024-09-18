@@ -43,16 +43,11 @@
 
 ### Operators Guide
 
-```+ | Addition (a+b) | This operation adds both the operands on either side of the + operator. ```
-
-``` xxxx```
-
-``` xxxx```
-
-``` xxxx```
-
-``` xxxx```
-
-``` xxxx```
-
-``` xxxx```
+| Operator | Name | Description |
+| ----------- | ----------- | ----------- |
+| + | Addition (a+b) | This operation adds both the operands on either side of the + operator. |
+| - | Subtraction (a-b) | This operation subtracts the right-hand operand from the left. |
+| * | Multiplication (a*b) | This operation multiplies both the operands. |
+| / | Division (a/b) | This operation divides the left-hand operand by the operand on the right. |
+| % | Modulus (a%b) | This operation returns the remainder after dividing the left-hand operand by the right operand. |
+| ----------- | ----------- | ----------- |
