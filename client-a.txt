@@ -1,4 +1,42 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
+
+START
+	// Initialize game
+	
+GET_RANDOM_NUMBER between 1 and 50
+
+SET_ATTEMPTS = 3
+
+	// Start game
+
+PRINT "Guess a random number between 1 and 50. You have 3 attempts"
+
+USER_INPUT = [guess here]
+
+	// Check player's guess
+	
+IF SET_ATTEMPTS > 0
+	{
+
+	IF USER_INPUT = GET_RANDOM_NUMBER
+		{ PRINT "You win!" }
+
+	ELSE IF USER_INPUT < GET_RANDOM_NUMBER
+		{ PRINT "Too low. Try again." }
+	
+	ELSE IF USER_INPUT > GET_RANDOM_NUMBER
+		{ PRINT "Too high. Try again." }
+	
+	DECREASE_ATTEMPTS = -1
+	}
+	
+	// End game
+	
+ELSE IF SET_ATTEMPTS = 0
+	{
+	PRINT "Game Over"
+	}
+END
 # ------------------------------------------------- #
 
