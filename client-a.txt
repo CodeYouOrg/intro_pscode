@@ -2,3 +2,49 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+#load start scene#
+
+	set variables : chances = 3
+	set variables : answer= random whole number between (1,10)
+	
+
+
+	display "Can you guess my number?"
+
+#player input function#
+
+	display "please guess a whole number between 1-10"
+	display text field set to integers and only numbers between 1-10
+	display button labeled "Guess"
+	
+	-when button is pressed
+
+#logic#
+	function to set the inital attemt to the number from the input field 
+		
+	function to check the attempt against the answer
+
+		if attempt = answer
+			then print "winner"
+		else
+			print "sorry try again"
+			set chances = chances - 1
+
+	function to check guesses if there are any guesses left
+
+		if chances >= 1
+			print guesses " remaining..."
+			reload to player input function screen
+		else
+			print "sorry you didn't guess the answer is (answer)" 
+			load the end scene
+
+#end scene#
+	display screen
+	display button labled "try again?"
+		-when button is pressed
+		reload start screen
+
+	display button labled "quit"
+		-when button is pressed
+		close the program

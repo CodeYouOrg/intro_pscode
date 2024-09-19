@@ -2,3 +2,75 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+#im going to imagine sams club for this task#
+#this represents a simplified outline of ailes in a store
+
+		# # # # # # # # # # # # # # # # # # #
+	^	# [aaaa]     [aaaa]     @	@   #
+	|	#			@	@   #
+	|	# [aaaa]     [aaaa]     @	@   #
+	|	# 			@       @   #     
+	|	# [aaaa]     [aaaa] 		    #
+	|	#				    #
+	|	# [aaaa]     [aaaa] 		    #
+	|	#				    #
+	|	# [aaaa]     [aaaa]  		    #
+	|	#				    #
+		#				    #
+	Y	# # # # # # # # # # # # # # # # # # #
+	0,0	X ---------------------------->
+
+
+
+#Start app#
+
+declare a library named locations that stores departments and x,y coordinates
+	#all coordinates are positive values with (0,0) being in the south west corner of the building#
+	#all coordinates are whole numbers representing feet as a unit of measurement#
+
+declare a library named obstructions that stores fixed objects like shelving with total inaccessible area blocked out
+
+get current location of customer in x,y coordinates from device gps and set this to current_pos
+
+display text "please select a department to display directions"
+
+display options for customer to select as a drop down list, "bathroom, cash register, electronics, grocery, frozen food, etc..."
+	
+display button labeled "go"
+
+upon customer selection and button press
+
+	retrieve library data to match drop down list and set as "destination"
+
+	perform this operation
+	
+	destination (x,y) - current_pos (x,y)
+	
+	take this result and translate it to new variable named path (x,y)
+
+	if values for (x) or (y) are positve values then set cardinal directions for x to east and y to north
+	if values for (x) or (y) are negative values then set cardinal directions for x to west and y to south
+
+
+
+set path "x" value with cardinal direction and "y" value with cardinal direction
+
+	create library named directions
+		add path(x,y)
+	
+	if obstacle exsists change direction to add/subtract 1 manuever around obtacle
+		add new path(x,y) to library
+	
+	if path(x,y) and locations (x,y) == 	
+		
+		for each entry in library named directions
+		print "directions go " cardinal_direction_x, path_x "feet" 
+		print "directions go " cardinal_direction_y, path_y "feet" 
+	
+
+
+	once current_pos and loction match
+		print "you have reached your destination"
+
+wait 60 seconds then return to start of app
+		
