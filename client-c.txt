@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+ i = 2
+
+if i <= 50
+then i = 2; i +=4; i +=6; ....etc.
+print i 
