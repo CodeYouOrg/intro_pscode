@@ -3,10 +3,10 @@
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
 ## **Overview:**
-You are tasked with writing **pseudocode** for **3** new programs for different clients. The pseudocode will then be added to a presentation for each client. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
+You are tasked with writing **pseudocode** for **3** new programs for different clients. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
 
 ## **Objective:**
-Write **three (3)** psuedocode programs, and get them synced to GitHub so the team can add them to the presentations.
+Write **three (3)** pseudocode programs, and get them synced to GitHub so the team can add them to the presentations.
 
 - [ ] Review the following **3** client tasks. (Task A, Task B, Task C)
 - [ ] Fork this repository (**https://github.com/CodeYouOrg/intro_pscode**) to your own GitHub account.
