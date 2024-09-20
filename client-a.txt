@@ -1,4 +1,14 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+start
+  Run random number generator int y = (0,11) // y = computers number
+  let n=0. // counts 3 guesses
+Loop
+  Output " please enter a number between 1-10"
+  Input int x.  // x = users guess
+      If x = y then print " Thats right!"
+      Else output "sorry, try again"
+ n = n+1
+If n <4 , then continue loop
+Else output "sorry, you lose"
