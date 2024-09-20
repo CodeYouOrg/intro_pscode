@@ -1,4 +1,17 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+//  Computer chooses location (a,b) 
+//  Customer starts at (x,y) = (0,0)
+Output "Welcome!  Please enter the direction you would ike to go. You may go N, S, E or W"
+Input D:  //D = Clients direction
+  If D = N then y = y+1
+  If D = S, then y = y-1
+  If D = E, then x = x+1
+  If D = W, then x = x-1
+if (x,y) = (a,b) then outut "You found your item"
+else output "There is nothing here, keep searching"
+output "Please enter a new direction"
+Input D
+Return to first if
 
