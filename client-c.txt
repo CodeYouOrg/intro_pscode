@@ -1,4 +1,13 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+Let n = 0
+output "scan a package"
+pull input from scanner
+Let n = n+2
+If n <= 48 then Output n
+output "Scan another package"
+n = n+2
+Else output n
+Output "Container is full"
+  
