@@ -1,4 +1,27 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+Generate a random number between 1-10
+Set chances to 3
+Print “Welcome to guess the number game”
+Print “You have 3 chances to guess the number between 1-10”
+
+While chances >0  DO
+Input guess 
+If guess == generated number between 1-10 then Print “You Win”
+Exit 
+ELSE
+ Print “Wrong number”
+Set Chances to chances -1
+
+If chances are > 0 THEN
+Print “Try again. You have” +chances+chances left
+
+ELSE
+Print “Sorry you are out of guesses, the correct number was” + generated number
+	
+END IF
+END WHILE
+Print “Thank you for playing”
+END
+
 

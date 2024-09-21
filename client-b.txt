@@ -1,4 +1,39 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+Set current location to (0,0)
+Set target Location to (x,y)
+Set directions to “north", "south", "east", "west"”
+    
+   Function to move the customer
+    Function move “north, south, east, west”
+IF direction == "north" THEN
+currentLocation.y = currentLocation.y + 1
+ELSE
+
+ IF direction == "south" THEN
+            currentLocation.y = currentLocation.y - 1
+        ELSE IF direction == "east" THEN
+            currentLocation.x = currentLocation.x + 1
+        ELSE IF direction = "west" THEN
+            currentLocation.x = currentLocation.x - 1
+
+        END IF
+END FUNCTION
+
+Main loop to find the target location
+    WHILE currentLocation != targetLocation
+ DO
+        DISPLAY "Current Location: currentLocation.x+ currentLocation.y”
+        DISPLAY "Enter direction (north, south, east, west) "
+        GET userInput
+        Move the customer based on user input
+        CALL move(userInput)
+        
+        Check if the customer has reached the target location
+        IF currentLocation == targetLocation THEN
+            DISPLAY "You have reached your destination!"
+END IF
+Display “Thank you for playing”
+END
+------------------------------------------------- #
 

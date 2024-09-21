@@ -1,4 +1,21 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+START
+Check if the user is logged in
+IF logged in
+Display user dashboard
+ELSE
+Display login page
+BEGIN
+Initialize the number of products per case
+SET products per case to 50
+
+Loop to count the number of products, starting from 2 up to 50, counting by twos
+For number from 2 to products per case 
+Step 2 DO
+	PRINT number
+END FOR
+
+END
+------------------------------------------------- #
 
