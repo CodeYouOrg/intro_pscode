@@ -2,6 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 Start
+Set variable 'c' to 50
+While 'c' is less tham or equal to 50.
+Print 'c'
+Increment 'c' by 2.
+End While
+
 Set variable 'p' to 2
 While 'p' is less than or equal to 50.
 Print 'p'
