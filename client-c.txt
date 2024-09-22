@@ -2,7 +2,7 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
-#begin the program#
+##begin the program##
 
 
 let the product count = 0
@@ -23,6 +23,7 @@ recieve input from scan = true or false
 
 	else
 		wait for input signal
+
 
 
 	

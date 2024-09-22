@@ -2,7 +2,7 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
-#load start scene#
+##load start scene##
 
 	set variables : chances = 3
 	set variables : answer= random whole number between (1,10)
@@ -47,4 +47,5 @@
 
 	display button labled "quit"
 		-when button is pressed
+
 		close the program

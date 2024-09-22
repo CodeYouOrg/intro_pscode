@@ -2,7 +2,7 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
-#im going to imagine sams club for this task#
+##im going to imagine sams club for this task##
 #this represents a simplified outline of ailes in a store
 
 		# # # # # # # # # # # # # # # # # # #
@@ -71,6 +71,7 @@ set path "x" value with cardinal direction and "y" value with cardinal direction
 
 	once current_pos and loction match
 		print "you have reached your destination"
+
 
 wait 60 seconds then return to start of app
 		
