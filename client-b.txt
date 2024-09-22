@@ -1,4 +1,21 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+Set variable 'a' to .2
+While 'a' is less than or equal to 10.
+Print 'a'
+Increment 'a' by .2
+
+Set variable 'b' to .2
+While 'b' is less than or equal to 10.
+Print 'b'
+Increment 'b' by .2
+
+Set variable 'Location' to (a,b).
+While 'Location' is less than or equal to (10.0,10.0).
+Print 'Location'
+Increment 'Location' by (.2,.2)
+End While
+End
 
