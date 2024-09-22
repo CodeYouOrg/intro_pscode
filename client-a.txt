@@ -1,4 +1,14 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Generate an integer from 1-10, set lives to 3
 
+Allow input from player
+
+Check if input matches generated number
+
+If yes, display "Congratulations, you won."
+
+If no, display "Sorry, try again" and subtract one life
+
+If lives are 0, display game over screen.

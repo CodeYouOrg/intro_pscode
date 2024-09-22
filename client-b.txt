@@ -1,4 +1,16 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Set customer's location as origin 0,0
 
+Identify the location of the item the customer is looking for, read its x,y coordinates and compare it to the customer. 
+
+Positive y is north, negative y is south
+
+Positive x is east, negative x is west
+
+Save direction values 
+
+Convert a negative integer to a positive.
+
+Display the difference as directions: "Move east/west x amount, move north/south y amount"

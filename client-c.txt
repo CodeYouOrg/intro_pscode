@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start packing of case
+
+If balance is <= 25, allow addition of another package
+
+if balance is >25, output "Box is full."
+
+Multiply balance by 2
+
+output new balance
