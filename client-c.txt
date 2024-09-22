@@ -2,3 +2,30 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+FUNCTION CountPackages()
+    // Step 1: Initialize variables
+    MAX_PRODUCTS = 50
+    PACKAGE_SIZE = 2
+    CURRENT_COUNT = 0
+
+    // Step 2: Print the header
+    DISPLAY("Counting packages for boxing:")
+    
+    // Step 3: Loop through numbers from 2 to MAX_PRODUCTS, counting by twos
+    FOR i FROM 2 TO MAX_PRODUCTS STEP 2 DO
+        DISPLAY(i) // Print the current count of products
+    END FOR
+
+    // Step 4: Print a message indicating the total number of packages
+    TOTAL_PACKAGES = MAX_PRODUCTS / PACKAGE_SIZE
+    DISPLAY("Total packages that can be boxed: " + TOTAL_PACKAGES)
+
+END FUNCTION
+
+// Main function to run the program
+FUNCTION Main()
+    CountPackages()
+END FUNCTION
+
+// Call the main function to start the program
+Main()

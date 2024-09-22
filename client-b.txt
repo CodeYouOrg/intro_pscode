@@ -2,3 +2,82 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+// Initialize the application
+FUNCTION InitializeApp()
+    LoadStoreMap()
+    RequestLocationPermissions()
+    IF LocationAccessGranted THEN
+        StartLocationTracking()
+    ENDIF
+END FUNCTION
+
+// Load the store layout
+FUNCTION LoadStoreMap()
+    STORE_MAP = LoadMapFromDatabase()
+    DISPLAY(STORE_MAP)
+END FUNCTION
+
+// Request user location permissions
+FUNCTION RequestLocationPermissions()
+    IF UserGivesPermission THEN
+        RETURN True
+    ELSE
+        RETURN False
+    ENDIF
+END FUNCTION
+
+// Start tracking user location
+FUNCTION StartLocationTracking()
+    WHILE AppIsActive DO
+        USER_LOCATION = GetCurrentLocation()
+        UpdateUserLocationOnMap(USER_LOCATION)
+        WAIT(1 second) // Update every second
+    END WHILE
+END FUNCTION
+
+// Search for an item
+FUNCTION SearchForItem(ITEM_NAME)
+    LOCATION = FindItemInStore(ITEM_NAME)
+    IF LOCATION IS NOT NULL THEN
+        RETURN LOCATION
+    ELSE
+        DISPLAY("Item not found.")
+        RETURN NULL
+    ENDIF
+END FUNCTION
+
+// Find item location in the store database
+FUNCTION FindItemInStore(ITEM_NAME)
+    RETURN QUERY(STORE_DATABASE, "SELECT location FROM items WHERE name = ITEM_NAME")
+END FUNCTION
+
+// Navigate to the target location
+FUNCTION NavigateToLocation(START, END)
+    PATH = CalculateShortestPath(START, END)
+    FOR EACH STEP IN PATH DO
+        DISPLAY(STEP)
+        WAIT_FOR_USER_TO_MOVE()
+    END FOR
+    DISPLAY("You have arrived at your destination.")
+END FUNCTION
+
+// Calculate the shortest path using a graph algorithm (e.g., A*)
+FUNCTION CalculateShortestPath(START, END)
+    // Implement pathfinding algorithm
+    RETURN PATH
+END FUNCTION
+
+// Main function to run the app
+FUNCTION Main()
+    InitializeApp()
+    ITEM_NAME = GetUserInput("Enter item name:")
+    TARGET_LOCATION = SearchForItem(ITEM_NAME)
+    IF TARGET_LOCATION IS NOT NULL THEN
+        NavigateToLocation(USER_LOCATION, TARGET_LOCATION)
+    ENDIF
+END FUNCTION
+
+// Call the main function to start the app
+Main()

@@ -1,4 +1,54 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
+
+FUNCTION NumberGuessingGame()
+    // Step 1: Initialize the game
+    RANDOM_NUMBER = GenerateRandomNumber(1, 10)
+    MAX_ATTEMPTS = 3
+    ATTEMPTS = 0
+    GUESS = 0
+
+    // Step 2: Game instructions
+    DISPLAY("Welcome to the Number Guessing Game!")
+    DISPLAY("I have chosen a number between 1 and 10.")
+    DISPLAY("You have 3 chances to guess it.")
+
+    // Step 3: Start guessing loop
+    WHILE ATTEMPTS < MAX_ATTEMPTS DO
+        GUESS = GetUserInput("Enter your guess (1-10):")
+        ATTEMPTS = ATTEMPTS + 1
+
+        // Step 4: Check the guess
+        IF GUESS < 1 OR GUESS > 10 THEN
+            DISPLAY("Please enter a number between 1 and 10.")
+            ATTEMPTS = ATTEMPTS - 1 // Do not count invalid attempts
+            CONTINUE
+        ENDIF
+
+        IF GUESS == RANDOM_NUMBER THEN
+            DISPLAY("Congratulations! You guessed the number!")
+            RETURN // End the game successfully
+        ELSE IF GUESS < RANDOM_NUMBER THEN
+            DISPLAY("Too low! Try again.")
+        ELSE
+            DISPLAY("Too high! Try again.")
+        ENDIF
+    END WHILE
+
+    // Step 5: Game over message
+    DISPLAY("Sorry, you've used all your attempts.")
+    DISPLAY("The correct number was: " + RANDOM_NUMBER)
+
+END FUNCTION
+
+// Main function to run the game
+FUNCTION Main()
+    NumberGuessingGame()
+END FUNCTION
+
+// Call the main function to start the game
+Main()
+
 
