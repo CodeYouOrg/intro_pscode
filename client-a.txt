@@ -1,4 +1,27 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# Output button “Guess The Number” (1 to 10)
+INPUT button selected
+OUTPUT “A number has been randomly chosen between 1 and 10, you have 3 guessing. Good Luck!”
+INPUT user enter first guess
+If INPUT is not in range(1 to 10) 
+OUTPUT “not in range, pick a whole number between 1 and 10”
+If INPUT matches computer chose number
+OUTPUT “You Win!”
+If INPUT does not match but is in range
+OUTPUT “That not it, try again” “Enter second guess”
+If INPUT is not in range(1 to 10) 
+OUTPUT “not in range, pick a whole number between 1 and 10”
+If INPUT matches computer chose number
+OUTPUT “You Win!”
+If INPUT does not match but is in range
+OUTPUT “Incorrect, you get one more try” “Enter third guess”
+If INPUT is not in range (1 to 10) 
+OUTPUT “not in range, pick a whole number between 1 and 10”
+If INPUT matches computer chose number
+OUTPUT “You Win!”
+If INPUT does not match but is in range
+OUTPUT “You Lose”
+OUTPUT “button “Guess The Number” (1 to 10)”
+------------------------------------------------- #
 
