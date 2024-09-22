@@ -1,4 +1,19 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# Task B
+Warehouse location: Back left of Warehouse
+Input: Start Directions
+If currently in front or middle of Warehouse
+	Output: Walk South to back of warehouse
+Input: Movement South=true, (Movement North, West, or East=false)
+	Loop if not at back of warehouse
+	If false output: “Stop walking, rerouting”
+If currently in middle back or right back of warehouse
+	Output: Walk East until at destination
+Input: Movement East=true, (Movement North, South, or West=false)
+	Loop in not at final destination
+	If false output: “Stop walking, rerouting”
+If at final destination
+	Output: “You have reached your destination”
+------------------------------------------------- #
 
