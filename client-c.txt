@@ -1,4 +1,13 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# Task C
+Range: (1 to 50)
+True: Even Number
+False: Odd Number
+Input: scanned package
+	Assign scanned packaged consecutive numbers range: (1 to 50)
+Output: Print number if true
+	If False; do not print
+Loop until the number 50 has printed
+------------------------------------------------- #
 
