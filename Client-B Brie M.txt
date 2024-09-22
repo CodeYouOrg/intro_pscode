@@ -1,0 +1,28 @@
+Task 2: Find the Spot- Brie Mengel 
+
+(Psuedocode project) Developing a walking app
+
+Start employee at (0,0)
+Get coordinates from user input (x,y)
+
+
+
+IF X is greater than 0 
+	move employee east X
+	
+IF X is less than 0
+	MOVE employee west X amount of times
+
+IF Y is greater than 0
+	MOVE employee north Y amount of times
+
+If Y is less than 0
+	MOVE employee South Y amount of times
+
+
+IF location is found	
+	PRINT GOOD JOB!
+
+IF location is NOT found
+	PRINT Try Again!
+

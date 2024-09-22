@@ -1,0 +1,35 @@
+Task 1: Guess the Number Game- Brie Mengel 
+
+(Psuedocode project)
+
+Open Bash from Terminal. 
+Provide computer with numbers 1-10, draw on randomly.
+Set parameters that player can only play 3 times to try to match up numbers with the computers random selections
+
+SET random number 1-10 into a variable
+Set guesses to 3
+SET variable to store if user has guessed variable correctly. Initially FALSE to 
+
+SET loop to run so long as guesses is greater than 0 AND user has not correctly guessed number
+	Pull in user input
+	Check if equal to random number set 	
+	IF equal 
+		SET variable guess correctly to TRUE
+	ELSE 
+		Guesses equal guesses minus 1
+IF guess correctly is TRUE 
+	PRINT Congratulations! 
+ELSE 
+	PRINT Loser *sad face*
+	
+
+
+
+
+randomly selected number 
+
+Compare computers 
+
+
+
+

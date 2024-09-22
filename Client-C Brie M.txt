@@ -1,0 +1,13 @@
+Task C: Product Package Counter- Brie Mengel 
+
+(Psuedocode Project)
+
+Set variable= 2
+
+# SET loop to run counting by 2 numbers from 2-50,
+WHILE variable not greater than 50
+	PRINT variable	
+	Increment variable by 2  
+
+
+
