@@ -1,4 +1,78 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# ------------------------------------------------
+
+
+#using an array to define a position inside the warehouse
+#since the assignment doesn't specify the size of the warehouse store, we'll use a 30 by 30 array to define the length and width of the warehouse store
+#user position
+integer array[ux,uy]
+#target location
+integer tx=random[0-30],ty=random[0-30]
+#user movement direction
+string umove
+
+print ("Welcome to the Warehouse Navigation Game!
+
+In this game, you’ll be navigating through a 30 by 30 warehouse. You can move in four directions: north, south, east, and west. Your goal is to reach a randomly generated location.
+
+The warehouse is divided into a grid, and you’ll start at a position of your choice.
+
+You cannot move outside the boundaries of the warehouse. 
+
+Please choose your starting position by entering two numbers for the coordinates:
+
+For example, the coordinates (0, 0) represent the top-left corner of the warehouse.
+Where would you like to start?")
+
+read (ux,uy)
+
+
+  while ux!=tx and uy!=ty
+    print "Which direction would you like to move? (north, south, east, west)"
+    read umove
+
+    if umove="north" 
+      if (uy + 1) > 30 
+        print "You can't move north, you've reached the northern boundary."
+      else
+        { uy=uy + 1
+          print "You moved north. Your current position is (ux, uy)"
+	}
+
+    else if umove="south" 
+      if y_current - 1 < 0 
+        print "You can't move south, you've reached the southern boundary."
+      else
+        { uy=uy - 1
+          print "You moved south. Your current position is (ux, uy)"
+     	}
+
+    else if umove="east" 
+      if (ux + 1) > 30 
+        print "You can't move east, you've reached the eastern boundary."
+      else
+        { ux= ux + 1
+          print "You moved east."
+	}
+      
+    else if umove="west" THEN
+      if x_current - 1 < 0 THEN
+        print "You can't move west, you've reached the western boundary."
+      else
+        { ux=ux - 1
+          print "You moved west."
+      
+	}
+    else 
+      print "Invalid direction. Please enter 'north', 'south', 'east', or 'west'."
+
+    else if ux=tx and uy=ty
+  	print "You have reached your destination!"
+
+  end while
+
+
+
+
 

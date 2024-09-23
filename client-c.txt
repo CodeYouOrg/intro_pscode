@@ -1,4 +1,7 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+i integer
+for i=2, i<=50, i+2
 
+	print i
