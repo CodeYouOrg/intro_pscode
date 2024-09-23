@@ -1,4 +1,26 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+    random number =(1, 10)
+    allowed attempts = 3
+
+    when player attempts the first time
+        print "Guess the number (between 1 and 10):"
+        read player guess
+
+        if player guess = random number 
+	then print "Congratulations! You guessed correctly."
+            
+        If player guess != random number 
+           then print "Incorrect guess. Try again you have  ? remaining attempts."
+	
+	repeat until player guesses random number or until remaining attempts have run out
+	            
+	If attempts = 3
+
+            print "Sorry, you've run out of attempts. The correct number is "random number. Please try again"
+
+            
+        end
 

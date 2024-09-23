@@ -1,4 +1,25 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+
+Include a map of the warehouse including aisles, rooms, shelving.
+
+Include coordinates that represent locations within the warehouse.
+
+Include an interface that displays the map of the warehouse.
+
+Include controls for the user to input their current location and desired destination.
+
+Include calculations = the shortest path from the user’s current location to the destination.
+
+Include movements of north, south, east, west.
+
+Include a method of input for the user to input their current location and desired location.
+
+When user inputs then provide step by step directions to desired location.
+
+Include a redirection method if the user gets lost.
+
+End
 
