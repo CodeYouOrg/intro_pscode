@@ -2,3 +2,25 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set target location (x,y)
+
+check current location (cx,cy)
+
+--cardinal input changes current location
+NORTH cy=cy+1
+SOUTH cy=cy-1
+EAST cx=cx+1
+WEST cx=cx-1
+
+
+while cy<y move NORTH
+end
+
+while cy>y move SOUTH
+end
+
+while cx<x move EAST
+end
+
+while cx>x move WEST
+end 

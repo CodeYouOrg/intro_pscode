@@ -2,3 +2,22 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set x variable to math.random(1,10)
+
+accept input of number(1,10) and store input in variable i
+
+input adds 1 to guess count variable g 
+
+
+if i!=x and g<3 then 
+	print("INCORRECT, try again.") 	
+	
+	elseif i!=x and g==3 then 
+		print("You have run out of guesses, YOU LOSE.") reset game
+	
+		elseif i==x and g<=3 then 
+			print("CORRECT, YOU WIN!") reset game 
+		
+		end
+	end	
+end	

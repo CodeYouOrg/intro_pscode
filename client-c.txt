@@ -2,3 +2,13 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set s variable to number of packages scanned
+
+s=2
+
+when package is scanned:
+
+repeat
+	print("packages scanned:", s)
+	s=s+2
+until(s>50) reset scan count
