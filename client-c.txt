@@ -1,4 +1,7 @@
 # Client Task C #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
 
+1. Set Current Count to 2
+2. Set case Limit to 50
+3. While Current Count <= case Limit:
+   a. Output Current Count
+   b. Increment Current Count by 2

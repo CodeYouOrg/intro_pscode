@@ -1,4 +1,16 @@
 # Client Task A #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
 
+1. Set Random Number to a random integer between 1 and 10
+2. Set attempts to 3
+3. While attempts > 0:
+   a. Ask player to input a guess
+   b. If guess equals random Number:
+      i. Output "Congratulations! You've guessed the correct number!"
+      ii. Break the loop
+   c. Else if guess is less than random Number:
+      i. Output "Your guess is too low."
+   d. Else:
+      i. Output "Your guess is too high."
+   e. Decrement attempts by 1
+4. If attempts == 0:
+   a. Output "Sorry, you've used all your attempts. The correct number was " + random Number
