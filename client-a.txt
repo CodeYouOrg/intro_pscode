@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task A
+
+Guess a number game
+Program generates a variable(x) >= 1, <= 10 
+User inputs number between 1 and 10(y)
+If y == x you win
+else if guess again
+Repeat loop three times
+else you lose 
