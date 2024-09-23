@@ -1,4 +1,17 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# 1. Set current Position to (0;0)  // Starting position information desk situated at the center of the Warehouse
+# Set target Position to the location where the customer wants to go (Electrical Appliance section located East)
+# While current Position is not equal to target Position:
+   a. Output "Your current position is center "Origin"
+   b. Ask the customer for the direction to move (north, south, east, west)
+   c. If direction is East:
+      i. Keep walking East from Current Position
+   d. Else if direction is South:
+      i. Walk backwards to center, then proceed East
+   e. Else if direction is North:
+      i. walk backwards to current position, then proceed East
+   f. Else if direction is West:
+      i. Walk backwards to center, then procced East
+# Output "You have arrived at your target location: "Electrical Appliance section". #
 
