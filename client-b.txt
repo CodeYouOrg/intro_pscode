@@ -1,4 +1,10 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# need the computer to come up with a specific location for the user to come to#
+# need to come up with a starting locations
+# prompt the user for which direction they want to move
+# prompt the user for how many paces they want to move
+# if user has reached the specific space they print 'you have reached your destination'
+# if not ask user how they want to proceed, which direction, and how many paces
+
 

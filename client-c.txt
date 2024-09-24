@@ -1,4 +1,8 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# Each package has two products, a case only fits 50 product packages so they is only 25 packages of 2 to each case#
+# 1 scan = 2 packages with a maximum of 50 packages
+# Each scan adds 2 to the previous number of packages, if packages after that scan = 50 then print 'this case is full'
+# Continue on previous scan + current scan if = 50 then print 'this case if full' else 'please add another package to complete this case'
+# If the number of packages = < than 50 then print 'please scan another package to add to this case'
 

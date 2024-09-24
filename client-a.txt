@@ -1,4 +1,13 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# need to come ups with a secret number #
+# need to ask the client to enter a number from 1-10 #
+# if number they entered = secret number then print out you have guessed the correct number #
+# if number is wrong then print to the screen please try again #
+# print number of guesses maximum of three guesses # 
+# ask then to enter another number #
+# if number they entered = secret number then print out you have guessed the correct number #
+# if number is wrong then print to the screen please try again #
+# print number of guesses maximum of three guesses #
+# if guesses have reached the maximum number print thanks for playing maximum number of guesses have been reached #
 
