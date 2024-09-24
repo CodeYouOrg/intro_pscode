@@ -2,3 +2,22 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+class WarehouseMap:
+    def __init__(self, layout):
+        self.layout = layout  # 2D array representing the warehouse
+        self.user_position = (0, 0)  # Starting position
+
+    def search_location(self, target):
+        # Implement search logic to find coordinates of the target
+        return target_coordinates
+
+    def calculate_path(self, start, end):
+        # Implement pathfinding algorithm
+        return path_coordinates
+
+    def move_user(self, direction):
+        # Update user_position based on direction and check for valid moves
+
+    def get_navigation_instructions(self, path):
+        # Convert path coordinates to readable instructions
+        return instructions
