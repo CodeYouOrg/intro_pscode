@@ -2,3 +2,27 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+WRITE PSEUDOCODE FOR A RANDOM NUMBER GUESSING GAME ASSIGNMENT
+
+START
+Display a message inviting a player to play the game.
+
+Prompt the player to enter their first guess using a number between 1 and 10.
+
+Create a random number generator using numbers 1 through 10, including 1 and 10.
+Next ask the number generator program to select a number between 1 and 10.
+
+Compare the number the player entered to the random number selected by the program.
+If it is a match, print out 'Congrats! That is Correct! '
+Else, if it is not a match, print out, 'Sorry, that is not the number. Please enter the number for your second guess.'
+
+Compare the number the player entered to the random number selected by the program.
+If it is a match, print out 'Congrats! That is Correct! '
+Else, if it is not a match, print out, 'Sorry, that is not the number. Please enter the number for your third guess.'
+
+Compare the number the player entered to the random number selected by the program.
+If the third number is a match, print out 'Congrats! That is Correct! '
+Else, if it is not a match, print out, 'Sorry, you did not guess the number. Please play again.'
+
+Wait 30 seconds, then return to the Home Display page inviting the player to play. 
+END
