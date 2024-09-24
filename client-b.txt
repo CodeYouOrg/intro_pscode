@@ -1,4 +1,20 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
-
+# The customer enters the store. #
+# The store floor map activates on the customer's phone. #
+# The customer needs the restroom. #
+# The store is massive and the restroom is far away. #
+# The customer hits the direction button. #
+# The app tells the customer to walk straight ahead. #
+# Simultaneously an arrow lights up on the screen. #
+# The customer walk for about twelve feet. #
+# The app says "Turn right." #
+# A right arrow lights up on the screen. #
+# At the the next aisle, the app says, "Turn left down this aisle." #
+# A left arrow lights up on the screen. #
+# The customer walks down the aisle until she approaches the end. #
+# The app says, "Take a left at the end of the aisle, then an immediate right. #
+# The screen flashes a left arrow followed by a right arrow. #
+# The app says, "Your destination is straight ahead. #
+# The customer breathes a sigh of relief. #
+# Crisis averted!#

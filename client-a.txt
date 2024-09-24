@@ -1,4 +1,13 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# Step 1. Computer randomly selects integer between 1 and 10. #
+# Step 2. The user inputs an apropriate number. #
+# Step 3. If the guess is correct/true, the game is over and the user wins. #
+# Step 4. If the guess is incorrect/false, the game continues. #
+# Step 5. The user inputs a second number. #
+# Step 6. If the guess is correct/true, the game is over and the user wins. #
+# Step 7. If the guess is incorrect/false, the game continues. #
+# Step 8. If the guess is correct/true, the game is over and the user wins. #
+# Step 9. If the guess is incorrect/false, the game is over and the computer wins. #
+# Step 10. Game over! #
 

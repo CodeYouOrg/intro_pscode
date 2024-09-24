@@ -1,4 +1,12 @@
 # Client Task C #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+# Step 1 As products are scanned, the scanner beeps once after the second product is scanned. #
+# Step 2 Every other product scanned, the scanner beeps. #
+# Step 3 Once the scanned total reaches 50, the scanner beeps three times rapidly. #
+# Step 4 The loop starts again after the total reaches 50. #
+# Step 5 The scanner beeps once after the second product is scanned. #
+# Step 6 After the fourth product is scanned, the scanner beeps once. #
+# Step 7 The scanner beeps once after the sixth product. #
+# Step 8 The scanner beeps once after the eighth product. #
+# Step 9 The process continues until the fiftieth product and three rapid beeps let the cashier know that cycle two is done. #
+# Step 10 And so on. #
 
