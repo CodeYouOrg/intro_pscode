@@ -6,9 +6,9 @@
 #using an array to define a position inside the warehouse
 #since the assignment doesn't specify the size of the warehouse store, we'll use a 30 by 30 array to define the length and width of the warehouse store
 #user position
-integer array[ux,uy]
+integer ux,uy
 #target location
-integer tx=random[0-30],ty=random[0-30]
+integer tx=random[1-30],ty=random[1-30]
 #user movement direction
 string umove
 
@@ -22,7 +22,7 @@ You cannot move outside the boundaries of the warehouse.
 
 Please choose your starting position by entering two numbers for the coordinates:
 
-For example, the coordinates (0, 0) represent the top-left corner of the warehouse.
+For example, the coordinates (1, 1) represent the top-left corner of the warehouse.
 Where would you like to start?")
 
 read (ux,uy)
@@ -41,7 +41,7 @@ read (ux,uy)
 	}
 
     else if umove="south" 
-      if y_current - 1 < 0 
+      if y_current - 1 < 1
         print "You can't move south, you've reached the southern boundary."
       else
         { uy=uy - 1
@@ -57,7 +57,7 @@ read (ux,uy)
 	}
       
     else if umove="west" THEN
-      if x_current - 1 < 0 THEN
+      if x_current - 1 < 1 THEN
         print "You can't move west, you've reached the western boundary."
       else
         { ux=ux - 1
