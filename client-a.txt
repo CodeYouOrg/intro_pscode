@@ -1,4 +1,17 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+    START
+    SET number TO RANDOM(1, 10)
+    SET chances TO 3
+
+    WHILE chances > 0 
+        PRINT "Guess a number: "
+        INPUT guess
+
+        IF guess == number THEN
+            PRINT "Correct!"
+            
+          ELSE
+            PRINT "Wrong!"
 
