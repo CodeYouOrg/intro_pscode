@@ -1,4 +1,14 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+    
+    SET startingNumber TO 2
+    SET maximumNumber TO 50
+     FOR i FROM startingNumber TO maximumNumber STEP 2 DO
+       PRINT "Number of products scanned: ", i
+    END FOR
+
+  PRINT "Counting complete. All product packages counted."
+END
 
