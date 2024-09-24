@@ -2,3 +2,17 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Determine user's destination
+Determine user's current location
+If user's destination != user's current location 
+Then determine user's current location until user's location == user's destination
+Print the direction (Norht, South, East, West) that the user's destiation is relative to the user's location
+If User's location == destination then print ('You have arrived!')
+
+
+
+
+
+
+

@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+packages =0
+while packages = < 50
+print packages + =  2 
+if packages = 50, then print ('New box needed') and change packages to = 0
+Repeat loop 

@@ -2,3 +2,10 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+import random
+random_number = random.randint between 1 and x 
+input() user's guess 
+while guess does not = random_number
+if guess is > random_number, then print ('Too high!')
+elseif guess is < random_number, then print ('Too low!')
+guess = random_number, then print ('You are correct!, The number is {random_number}!)
