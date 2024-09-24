@@ -2,3 +2,18 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+ START
+    SET x, y TO 0, 0
+    SET tx, ty TO TARGET
+
+    WHILE x != tx OR y != ty DO
+        INPUT direction
+        IF direction == "north" THEN y = y + 1
+        IF direction == "south" THEN y = y - 1
+        IF direction == "east" THEN x = x + 1
+        IF direction == "west" THEN x = x - 1
+    END WHILE
+
+    PRINT "Spot found!"
+END
+
