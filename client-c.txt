@@ -2,3 +2,13 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Task C
+
+Start
+ User inputs product
+ Counter will track the number of products
+ When products are an even number print the sum of the products
+ When total of number of products == 50 restart the loop
+ End
+
