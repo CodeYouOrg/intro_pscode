@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+BEGIN CountByTwos
+    FOR number FROM 2 TO 50 STEP 2 DO
+        PRINT number
+    END FOR
+END CountByTwos
