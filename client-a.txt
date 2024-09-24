@@ -2,3 +2,36 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+BEGIN NumberGuessingGame
+
+    SET randomNumber TO RANDOM(1, 10)
+    SET attempts TO 3
+    SET guessedCorrectly TO FALSE
+
+    PRINT "Welcome to the Number Guessing Game!"
+    PRINT "I have chosen a number between 1 and 10. You have 3 chances to guess it."
+
+    WHILE attempts > 0 AND guessedCorrectly = FALSE
+        PRINT "You have", attempts, "attempt(s) left."
+        PRINT "Please enter your guess: "
+        INPUT userGuess
+
+        IF userGuess < randomNumber THEN
+            PRINT "Too low! Try again."
+        ELSE IF userGuess > randomNumber THEN
+            PRINT "Too high! Try again."
+        ELSE
+            PRINT "Congratulations! You've guessed the number!"
+            SET guessedCorrectly TO TRUE
+        END IF
+
+        DECREMENT attempts
+    END WHILE
+
+    IF guessedCorrectly = FALSE THEN
+        PRINT "Sorry, you've run out of attempts. The number was", randomNumber, "."
+    END IF
+
+    PRINT "Thank you for playing!"
+
+END NumberGuessingGame
