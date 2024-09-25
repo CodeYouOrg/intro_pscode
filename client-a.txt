@@ -2,3 +2,17 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+   Generate a random number between 1 and 10, store as "secretNumber"
+   Set attempts = 3
+
+   While attempts > 0:
+      Ask player to input a guess, store as "playerGuess"
+      
+      If playerGuess equals secretNumber:
+         Print "Great Job!"
+         End game
+      Else: Print the message "You lose"
+                     
+ End
+
