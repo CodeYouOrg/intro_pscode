@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Computer chooses a random number between 1 and 10
+Player chooses a number between 1 and 10
+If correct match, player wins.
+If not correct match, player chooses another number between 1 and 10
+If correct match, player wins
+If not correct match, player chooses another number between 1 and 10, not either of the previous 2 guesses.
+If correct match, player wins.
+If not correct match, player loses the game.
+
