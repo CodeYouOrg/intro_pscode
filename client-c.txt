@@ -1,4 +1,42 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Patricia Sullivan 
+Task C: Product Package Counter
 
+/* Task: You need to develop a program that counts the number of items that a hardware device scans to sort 
+/* for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages.
+/* Write a program that prints numbers from 2 to 50, counting by twos.
+
+Start 
+itemScancount = 0
+productCount = 0
+packageCount = 0
+
+/* Create a function with a while loop named caseCount
+function caseCount{
+while  productCount  > 0 and  <= 50 {
+        print 'Package Count = ' + packageCount
+        print 'Product Count = ' + productCount
+        packageCount = itemScancount
+        itemScancount = itemScancount + 1
+        productCount = productCount + 2
+        }
+   }
+
+main {        
+     call function caseCount {     
+             
+     }
+     if productCount > 0 {
+       print 'Case is full. Start a new case.'
+       call function caseCount
+       }
+       else{ 
+         print 'There are no more product packages'
+         }
+     }
+End
+
+
+/* Note - continute improving the program by adding in a variable and counter for cases to print the total number of cases 
