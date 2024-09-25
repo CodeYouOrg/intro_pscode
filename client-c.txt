@@ -2,3 +2,13 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+   Set package = 2
+
+   While package <= 50:
+      Print package
+      Increase package by 2
+
+  End
+
+
