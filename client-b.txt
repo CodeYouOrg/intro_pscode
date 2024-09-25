@@ -2,3 +2,31 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task: Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+Hints: Loops, Variables
+
+Create an array containing North, South, East, West
+
+Locate users position location in the warehouse store
+
+Locate item position in the warehouse store
+
+Calculate directions to the item
+
+Compare the users postion and where the item is
+
+Provide a list of possible directions 
+
+Have user select which direction they would like to choose
+
+Track user postion and eliminate previous directions once they have been fulfilled
+
+At each direction change point, recalibrate next direction in line
+
+    If user is on the correct path continue with current directions
+    Else the user moves in the wrong direction provide updated list of directions
+
+Loop Compare statement until item is located
+
+When users location matches item location prompt user "You Are HERE!"

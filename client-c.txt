@@ -2,3 +2,26 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task C: Product Package Counter
+Task: You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+Hint: Loops
+
+Determine number of packages per box and how many items in each package
+
+    Create a count state Variables intialized at zero
+
+    While count state is <=50 increments count state by 2
+
+let count_state = 0;
+print count_state;
+while (count_state < 50) {
+    count_state + 2;
+    print count_state;
+    if (count_state === 50) {
+        print("Limit of 50 packages has been reached!")
+        break
+    }
+}
+
+
