@@ -2,3 +2,44 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Greet player
+
+Provide introduction to game and rules
+
+Player clicks the start game button
+
+Generate a random number between 1 and 10 and store it in variable Num
+
+Variable is stored but not printed on screen
+
+These below directions will repeat a maximum of three times or until the player inputs the correct integer
+
+	Display on screen prompt for player to input a integer between 1 and ten into pop up text box
+
+	Compare variable Num to the entry from user
+	
+		If player inputs a number that is not an integer then display, "try again, please enter a whole number" or
+
+		If player inputs a string then display, "try again, please enter a whole number"
+
+		If player inputs special characters and not an integer then display "try again, please enter a whole number" 
+ 
+		If player inputs an integer that is not >0 and <= 10 then display "try again, please enter a whole number between 1 and 10"
+
+		If player inputs an integer then compare integer entered to Num
+			if Num = integer entered, display "You guessed it! Congratulations!" 
+				Once number is correctly guessed, then go to end game directions
+			if Num is not equal to integer entered, display "please enter another guess" and display a text box
+
+
+End game directions
+	If Num is not guessed correctly in three tries, then display "Good try!"
+	
+	display two choice buttons
+		one button is for quit game
+			if player chooses to quit game go to quit message
+		the second button is for play again
+			if player chooses play again button, then return to screen where player may click start game button
+
+
+Quit message is displayed "Thank you for playing and come back to play again!"
