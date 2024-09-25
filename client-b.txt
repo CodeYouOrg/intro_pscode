@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Customer enters the warehouse in search of a box
+Customer walks 10 steps south
+Customer then turns west and walks 10 steps
+Customer then turns and walks 10 more steps south
+Customer turns west and walks 5 steps
+Customer turns north and walks 20 steps
+Customer turns west and walks 5 steps
+Customer finds location of the box
