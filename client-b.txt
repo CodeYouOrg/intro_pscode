@@ -2,3 +2,76 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+TASK B: FIND THE SPOT
+
+Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. 
+The customer can move north, south, east, or west.
+
+
+START 
+Customer Enters at the Entrance and sees a Help Kiosk.
+
+On the Kiosk is displayed:
+Please choose the location (product) you would like to find:
+
+(clickable links)
+* a1 Women's Clothing      
+* a2 Men's Clothing
+* a3 Children's Clothing
+* b1 Food
+* b2 Pet Food and Supplies
+* b3 Toiletries
+* c1 Toys
+* c2 Automotive
+* c3 Electronics
+
+
+if the customer chooses a1:
+    Go West 50 feet
+    Turn North and go 50 feet
+    You are there.
+
+   Else if the customer chooses a2:
+      Go North 50 feet
+      You are there.
+      
+      Else if the customer chooses a3:
+          Go East 50 feet
+          Turn North and go 50 feet
+          You are there.
+
+
+     Else if the customer chooses b1:
+          Go East 50 feet
+          Turn North and go 100 feet
+          You are there.
+
+     Else if the customer chooses b2:
+          Go North 100 feet
+          You are there.
+
+     Else if the customer chooses b3:
+          Go East 50 feet
+          Turn North and go 100 feet
+          You are there.
+
+
+
+    Else if the customer chooses c1:
+          Go East 50 feet
+          Turn North and go 150 feet
+          You are there.
+
+     Else if the customer chooses c2:
+          Go North 150 feet
+          You are there.
+
+     Else if the customer chooses c3:
+          Go East 50 feet
+          Turn North and go 150 feet
+          You are there.
+
+To return to the entrance, reverse the directions for the location chosen. 
+/* May get extra motivated later and add directions from any point to any point.  Currently it is just from the front entrance
+/* to the point
+END 
