@@ -2,3 +2,17 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+   Set current position (A, B)
+   Set target position (C, D)
+
+   While not at target:
+      If currentA < targetC: Move east
+      If currentA > targetC: Move west
+      If currentB < targetD: Move north
+      If currentB > targetD: Move south
+   
+   Print "Item found!"
+End
+
+
