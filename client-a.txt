@@ -2,3 +2,32 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+GUESS THE NUMBER GAME
+
+Step 1. BEGIN the game
+
+Step 2. COMPUTER picks a random number between 1 and 10
+
+Step 3. PLAYER assigned 3 guesses to guess the number picked by computer
+
+Step 4. ASK the Player to guess a number between 1 and 10
+		
+	If Player's guess is same as Computer's selection:
+			
+		Display "Congratulations, you guessed the right number! You are a winner!"
+			
+		Go to Step 5 (END the game)
+
+	If Player's guess is wrong AND the Player has remaining guesses
+
+		Display "Wrong! You have <# of guesses remaining> guesses left..."
+
+		Deduct one guess from the Player's alloted guesses
+
+	If Player's guess is wrong AND the Player has no remaining guesses
+
+		Display "You lose! The correct number was <Insert Computer's Number>"
+
+		Go to Step 5 (END the game)
+
+Step 5. END the game
