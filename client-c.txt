@@ -2,3 +2,37 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Count the number of items for packing
+If package is scanned, print 2
+If another package is scanned, print 4
+If another package is scanned, print 6 
+If another package is scanned, print 8
+If another package is scanned, print 10
+If another package is scanned, print 12
+If another package is scanned, print 14
+If another package is scanned, print 16
+If another package is scanned, print 18
+If another package is scanned, print 20
+If another package is scanned, print 22
+If another package is scanned, print 24
+If another package is scanned, print 26
+If another package is scanned, print 28
+If another package is scanned, print 30
+If another package is scanned, print 32
+If another package is scanned, print 34
+If another package is scanned, print 36
+If another package is scanned, print 38
+If another package is scanned, print 40
+If another package is scanned, print 42
+If another package is scanned, print 44
+If another package is scanned, print 46
+If another package is scanned, print 48
+If another package is scanned, print 50
+If another package is scanned, print 2
+Loop process until no other packages are scanned
+
+
+
+
+
+
