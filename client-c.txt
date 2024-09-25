@@ -3,7 +3,7 @@
 # ------------------------------------------------- #
 Start
 Set variable 'c' to 50
-While 'c' is less tham or equal to 50.
+While 'c' is less than or equal to 50.
 Print 'c'
 Increment 'c' by 2.
 End While
