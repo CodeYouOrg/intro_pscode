@@ -2,3 +2,31 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Choose a number between 1 - 10
+The user gets 3 tries to match the computer picked number
+
+Computer will pick a number between 1-10
+
+Prompt 1
+Prompt user to choose a number between 1-10
+    If number is not between 1-10 then prompt user to "Please try again Friend"
+    Else Compare the input to computers prepicked number
+    
+
+If the number the user picks matches the number the computer picks then prompt user "You are a winner"
+
+Else If the number the user picks does not match the computer picked number then prompt user "Please try again"
+    Count down chances remaining
+
+Loop Prompt 1
+
+If the number the user picks matches the number the compter picks the prompt user "Second time is a charm, You're a WINNER!"
+
+Else If the number the user picks does not match the computer picked number then prompt user "Please try again"
+    Count down the chances remaining
+Loop Prompt 1
+
+If the number the user picks matches the number the computer picks then prompt user "WINNER WINNER CHICKEN DINNER!"
+
+Else If the number the user picks does not match the computer picked number then Prompt user "End of LINE, Sorry!"
+    End Game
