@@ -12,7 +12,8 @@ Start
       If playerGuess equals secretNumber:
          Print "Great Job!"
          End game
-      Else: Print the message "You lose"
+      Else: 
+         Print the message "You lose"
                      
  End
 
