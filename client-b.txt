@@ -1,4 +1,30 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+BEGIN WarehouseApp
+    DEFINE WAREHOUSE as a 2D grid (e.g., [['A1', 'A2'], ['B1', 'B2']]) 
+    FUNCTION findPath(start, target)
+        SET currentPosition = start
+        WHILE currentPosition NOT EQUAL target DO
+            PRINT "You are at " + currentPosition
+            PRINT "Move (N/S/E/W):"
+            READ move
+            UPDATE currentPosition BASED ON move
+            IF currentPosition OUT OF BOUNDS THEN
+                PRINT "Invalid move. Try again."
+                SET currentPosition BACK TO previous position
+            END IF
+        END WHILE
+        PRINT "You reached: " + target
+    END FUNCTION
+    FUNCTION main()
+        PRINT "Enter starting position:"
+        READ startPosition
+        PRINT "Enter target position:"
+        READ targetPosition
+                CALL findPath(startPosition, targetPosition)
+    END FUNCTION
+    CALL main()
+END WarehouseApp
+
 
