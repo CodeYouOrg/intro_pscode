@@ -1,4 +1,26 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+  SET currentPosition = (startX, startY)
+  SET destination = (endX, endY)
+
+  WHILE currentPosition != destination:
+    PRINT "Current position:", currentPosition
+    PRINT "Move (north/south/east/west):"
+    INPUT direction
+
+    IF direction == "north":
+      currentPosition.y = currentPosition.y + 1
+    ELSE IF direction == "south":
+      currentPosition.y = currentPosition.y - 1
+    ELSE IF direction == "east":
+      currentPosition.x = currentPosition.x + 1
+    ELSE IF direction == "west":
+      currentPosition.x = currentPosition.x - 1
+    ELSE:
+      PRINT "Invalid direction"
+
+  PRINT "You have reached your destination!"
+END
 
