@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+  SET number = 2
+  FOR (number = 2; number <= 50; number+=2)
+    PRINT number
+END
