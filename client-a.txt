@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START 
+  SET randomNumber = RANDOM(1, 10) 
+  SET attempts = 0
+  FOR (attempts = 0; attempts <3; attempts+=1)
+    {
+    PRINT "Guess a number between 1 and 10:" 
+    INPUT playerGuess 
+    IF playerGuess == randomNumber: 
+    PRINT "Correct! You win!" 
+    EXIT 
+    ELSE IF playerGuess < randomNumber: 
+    PRINT "Too low!" 
+    ELSE: PRINT "Too high!" 
+    }
+  PRINT "Game over! The correct number was", randomNumber
+END
