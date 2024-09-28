@@ -6,7 +6,7 @@
 - Program chooses the random number between 1 and 10
 - Store the random number in a variable named random_num
 ### for loop w/ range(3)
-= Enter "Enter guess number 1:"
+- Enter "Enter guess number 1:"
 - Guess number 1 into variable guess_1
 - Compare guess_1 = random_num
     - If true, print "Congratulations, you guessed the number"s
