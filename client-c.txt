@@ -1,4 +1,17 @@
-# Client Task C #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+Task C
+
+START
+
+SET n=2
+
+PRINT 'n'
+
+Increase 'n' by 2
+
+If N <=50 Go to 2nd Step
+
+ELSE STOP
+
+
+STOP
 
