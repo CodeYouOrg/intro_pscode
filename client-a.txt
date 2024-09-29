@@ -1,4 +1,23 @@
-# Client Task A #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+Task A 
 
+Start
+Get the new number:
+
+Get the guess from the user 
+  While the guess is incorrect
+  If guess is to large tell user it is "to large"
+  If guess is to small tell user it is "to small"
+
+Get a new guess
+  If guess is to large tell user it is "to large"
+  If guess is to small tell user it is "to small"
+
+Get a new guess
+  If guess is to large tell user it is "to large"
+  If guess is to small tell user it is "to small"
+  
+  While the guess is correct
+If guess is correct tell user "you have guessed the correct number"
+Print "Number"
+
+End

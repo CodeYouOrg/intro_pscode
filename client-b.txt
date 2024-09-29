@@ -1,4 +1,44 @@
-# Client Task B #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+Task B
+
+
+START
+
+Current Room = 'Center of Warehouse'
+Print 'You are in the Center of Warehouse'
+BEGIN LOOP
+  INPUT= 'What direction do you want to go?'
+  IF current location is 'Center of Warehouse'
+    IF direction is 'West'
+      current location = 'West Warehouse'
+      OUTPUT= 'You are in the West Warehouse portion'
+  ELSE
+      OUTPUT= 'Invalid Direction, Try Again'
+  ELIF current location is 'Center of Warehouse'
+  INPUT= 'What direction do you want to go?'
+    IF direction is 'North'
+      current location = "North Warehouse"
+      OUTPUT= 'You are in the North Warehouse portion'
+  ELSE
+      OUPUT= 'Invalid Direction, Try Again'
+  ELIF current location is 'Center of Warehouse'
+  INPUT= 'What direction do you want to go?'
+    IF direction is 'South'
+      current location = 'South Warehouse'
+      OUTPUT= 'You are in the South Warehouse portion'
+  ELSE
+      OUPUT= 'Invalid Direction, Try Again'
+  ELIF current location is "Center of Warehouse"
+  INPUT= 'What direction do you want to go?'
+    IF direction is 'East'
+      current location = 'East Warehouse'
+      OUTPUT= 'You are in the East Warehouse portion'
+  ELSE
+      OUPUT= 'Invalid Direction, Try Again'
+
+  END LOOP
+    IF current location = 'Center of Warehouse'
+    OUTPUT= 'End Point Reached'
+
+  END
+  
 
