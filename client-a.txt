@@ -2,3 +2,13 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+	1. Prompt the computer to pick a number between 1 and 10.
+	2. Save picked number.
+	3. Advise user to pick a number between 1 and 10.
+	4. Take user input and check if the number is between 1 and 10.
+	5. Repeat steps 1-4 2 more times.
+	6. If user input matches picked number from step 2, print "you win."
+	7. If user input doesn't match picked number from step 2, print "game over." 
+	   
+
