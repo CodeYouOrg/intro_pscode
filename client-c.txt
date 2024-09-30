@@ -2,3 +2,7 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+	1. Count values by 2 increments within a total of 50 values.
+	2. Print values every 2 increments.
+	3. Repeat steps 1-2 until finished.
