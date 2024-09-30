@@ -1,4 +1,54 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+    // Generate a random number between 1 and 10
+    SET randomNumber = GenerateRandomNumber(1, 10)
+    SET attempts = 3
+    SET guessedCorrectly = FALSE
+
+    // Explain the game rules to the player
+    PRINT "Welcome to the Guess the Number Game!"
+    PRINT "I have chosen a number between 1 and 10."
+    PRINT "You have 3 chances to guess it."
+
+    // Loop while the player has attempts left
+    WHILE attempts > 0 AND guessedCorrectly = FALSE
+        PRINT "You have " + attempts + " attempts left."
+        
+        // Get the player's guess
+        PRINT "Please enter your guess:"
+        SET playerGuess = GET_USER_INPUT()
+        
+        // Check if the guess is correct
+        IF playerGuess = randomNumber THEN
+            PRINT "Congratulations! You guessed the number!"
+            SET guessedCorrectly = TRUE
+        ELSE
+            PRINT "Wrong guess. Try again."
+            // Decrease the number of attempts left
+            SET attempts = attempts - 1
+        END IF
+    END WHILE
+
+    // If the player runs out of attempts
+    IF guessedCorrectly = FALSE THEN
+        PRINT "Sorry! You've run out of attempts. The number was " + randomNumber + "."
+    END IF
+
+END
+Explanation of the Pseudocode:
+Start: Begin the game.
+Generate a Random Number: The computer picks a number between 1 and 10.
+Set Up Variables:
+attempts keeps track of how many guesses the player has left.
+guessedCorrectly is a flag to indicate if the player has guessed the number.
+Game Rules: Print instructions for the player.
+While Loop: The game continues as long as the player has attempts left and hasn't guessed correctly.
+Display remaining attempts.
+Prompt the player for their guess.
+Check Guess:
+If the guess is correct, congratulate the player and set guessedCorrectly to TRUE.
+If incorrect, inform the player and decrease the attempts.
+End of Game: If the player runs out of attempts, reveal the correct number.
 
