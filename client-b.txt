@@ -2,3 +2,25 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Application has a gps map of the warehouse store 30x30 measured in ft. 
+    - the map supports the directions listed as: north, south, east, west
+    - the map supports directions to location desired by walking only
+
+1. User prompts application to display map of warehouse store
+    - user enables current location of device 
+        - this location is labled as "starting location"
+    
+2. User selects desired location of store on the application
+    - this location is labeled as "ending location"
+
+3. Application displays directions from starting location to ending location 
+    - directions are listed in feet to ending location
+    - directions are specific to only as following: north, south, east, west
+       
+4. User follows listed directions to target location 
+        - application updates current location in real time relative to ending location selected in Step 2
+            
+5. Loop directions to ending location
+    - when user reaches the ending location
+        print "You have arrived" and exit user prompt in Step 1
+
