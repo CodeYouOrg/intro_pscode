@@ -1,4 +1,44 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+    // Define the warehouse layout as a grid
+    DEFINE warehouseGrid as a 2D array of locations
+    SET currentPosition = (startX, startY) // Starting coordinates of the customer
+    SET targetLocation = (targetX, targetY) // Target coordinates to find
+    SET found = FALSE
+
+    PRINT "Welcome to the Find the Spot application!"
+    PRINT "You can move north, south, east, or west to find your location."
+
+    // Loop until the customer finds the target location
+    WHILE found = FALSE
+        PRINT "You are currently at (" + currentPosition.x + ", " + currentPosition.y + ")"
+        PRINT "Enter your move (north, south, east, west):"
+        SET userMove = GET_USER_INPUT()
+
+        // Update the current position based on user input
+        IF userMove = "north" THEN
+            SET currentPosition.y = currentPosition.y + 1
+        ELSE IF userMove = "south" THEN
+            SET currentPosition.y = currentPosition.y - 1
+        ELSE IF userMove = "east" THEN
+            SET currentPosition.x = currentPosition.x + 1
+        ELSE IF userMove = "west" THEN
+            SET currentPosition.x = currentPosition.x - 1
+        ELSE
+            PRINT "Invalid move. Please enter north, south, east, or west."
+            CONTINUE // Skip the rest of the loop and ask for input again
+        END IF
+
+        // Check if the current position matches the target location
+        IF currentPosition = targetLocation THEN
+            PRINT "Congratulations! You have found the location at (" + targetLocation.x + ", " + targetLocation.y + ")"
+            SET found = TRUE
+        ELSE
+            PRINT "Keep looking! You are still searching."
+        END IF
+    END WHILE
+
+END
 
