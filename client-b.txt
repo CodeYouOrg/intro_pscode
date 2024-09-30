@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+	1. Use an array of 10 by 10 to define positions within a square warehouse.
+	2. Warehouse is divided into a grid.
+	3. Each grid is set to a specific value.
+	4. User can only move north, south, east, or west.
