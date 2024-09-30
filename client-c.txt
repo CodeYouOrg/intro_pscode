@@ -2,3 +2,9 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Set the package counter variable to 0.
+While the counter is <=50:
+	Return the count
+	And increment the count by 2
+
+# ------------------------------------------------- #

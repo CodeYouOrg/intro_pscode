@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Pick/Generate random number from 1 - 10 and assign it to a variable.
+Assign set attempts to 3.
+
+While attempts > 0:
+	Prompt user for their entry
+	Use if statement:
+		If they guess right, end loop with a congratulations.
+		Break.
+	Else:
+		"Try again!"
+	Decrease attempts by 1.
+
+If attempts == 0:
+	Tell the user that they've run out and give them the answer.
+
+# ------------------------------------------------- #
