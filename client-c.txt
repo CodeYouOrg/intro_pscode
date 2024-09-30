@@ -1,4 +1,21 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+    // Define the maximum number of products in a case
+    SET maxProductsInCase = 50
+    SET currentCount = 2 // Start counting from 2
+
+    PRINT "Product Package Counter"
+    PRINT "Counting the number of items scanned (counting by twos):"
+
+    // Loop to count from 2 to 50, incrementing by 2 each time
+    WHILE currentCount <= maxProductsInCase
+        PRINT currentCount // Print the current count
+        SET currentCount = currentCount + 2 // Increment by 2
+    END WHILE
+
+    PRINT "Counting complete!"
+
+END
 
