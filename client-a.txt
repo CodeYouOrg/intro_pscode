@@ -5,20 +5,30 @@ Start game
 Computer chooses random number between 1 and 10
 Player enters guess between 1 and 10
 IF player guess is between 1 and 10 compare guess to computer's choice.
-Else prompt to choose a number between 1 and 10
+Else 
+    prompt to choose a number between 1 and 10
 IF player's guess matches computer's choice, "Great Job! You Win!"
-Else player's choice does not match computer's choice 1 attempt gone, two attempts left.
+Else 
+    player's choice does not match computer's choice, 1 attempt gone, two attempts left.
+
 
 Player enters guess between 1 and 10
 IF player's guess is between 1 and 10 compare guess to computer's choice.
-Else prompt to choose a number between 1 and 10
+Else 
+    prompt to choose a number between 1 and 10
 IF player's guess matches computer's choice, "Great Job! You Win!"
-Else player's choice does not match computer's choice 2 attempts gone, one attempt left.
+Else 
+    player's choice does not match computer's choice 2 attempts gone, one attempt left.
+
 
 Player enters guess between 1 and 10
 IF player's guess is between 1 and 10 compare guess to computer's choice.
-Else prompt to choose a number between 1 and 10
+Else 
+    prompt to choose a number between 1 and 10
 IF player's guess matches computer's choice, "Great Job! You Win!"
-Else player's choice does not match computer's choice. 0 attempts left, "Game Over", "Try Again?".
+Else 
+    player's choice does not match computer's choice. 0 attempts left, 
+    Print "Game Over", "Try Again?".
 IF try again, 'start game' from attempt 1.
-Else exit game.
+Else 
+    Print "End game?"

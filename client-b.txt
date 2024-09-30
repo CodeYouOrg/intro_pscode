@@ -2,21 +2,53 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 Start
+Define Location, a, b,
+Input a= increments of .2
+Input b= increments of .2
+Input Location= (a,b)
+
+Define You, x, y,
+Input x= increments of .2
+Input y= increments of .2
+You= (x,y)
+
+Set variable 'You' to (x,y)
+While 'You' is greater than (0.0,0.0)
+Print (x,y)
+Increment by (.2,.2)
+While End
+
+Set variable 'x' to .2
+While 'x' is less than or equal to 10.0.
+Print 'x'
+Increment 'x' by .2
+While End
+
+Set variable 'y' to .2
+While 'y' is less than or equal to 10.0.
+Print 'y'
+Increment 'y' by .2
+While End
+
 Set variable 'Location' to (a,b).
 While 'Location' is less than or equal to (10.0,10.0).
-Print 'Location'
-Increment 'Location' by (.2,.2)
+Do Distance <- Location - You
+    You <- Location - Distance
+Print Distance
+While End
 
-Set variable 'a' to .2
-While 'a' is less than or equal to 10.
-Print 'a'
-Increment 'a' by .2
+Get You
+Distance <- Location - You
+While (Location != You)
+Do You <- Location - Distance
+    Distance <- Location - You
+Print You
+While End
 
-Set variable 'b' to .2
-While 'b' is less than or equal to 10.
-Print 'b'
-Increment 'b' by .2
-
-End While
+If Location = You then
+    Print "You have arrived!"
+Else
+    Print "Keep going, your almost there!"
+While End
 End
 
