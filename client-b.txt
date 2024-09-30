@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Set the starting point on the 'x' and 'y' axis.
+Define the destination.
+While the customer's position is not the destination:
+	Prompt player for direction (north, east, south, or west)
+	If the direction given is north
+		Increase y by 1
+	Do the same with south
+		Decrease y by 1
+	And east
+		Increase x by 1
+	Finally west
+		Decrease x by 1
+	Give the customer the output as they move
+When they finally reach their destination, return a confirmation
+
+# ------------------------------------------------- #
