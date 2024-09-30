@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+1. Create number scale for the program to scan values from 1-50
+    - scanner prints numbers in increments of 2 up to the maximum value of 50
+        - value of 50 reached is equal to 1 case
+
+2. Loop scanner to print +-2 until maximum value of 50 is reached
+    - when scanner is given the value of 50
+        print "One Case Filled"
+            count each case filled by increments of 1
+
+3. Repeat Step 2
+    - if scanner is unable to reach the maximum value of 50
+        - exit scanning Loop in Step 2
+            print "Out of packages to scan"

@@ -1,4 +1,18 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+1. Create number scale valued from 1-10
+    prompt user to select a number between value 1-10
+        alert user that they have three chances to select the correct number
+2. User selects number from the above scale in Step 1
+    computer randomly generates a number from the above scale
+3. Check if the user selected number is the same as the randomly generated number
+    If the number is correct
+        print "You win the grand prize" and exit game
+    else print "please try again"
+4. Prompt user to select a new number between 1-10
+    repeat step 3 until user has made 3 different guesses
+    if user does not select the correct number
+        print "Sorry, game is over. Goodbye" 
+        prompt user to choose option of "Play Again" or "Exit Game"
 
