@@ -1,4 +1,10 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+START
+Check if the number is less than or equal to 10
+IF i > 10
+    Print "Correct!"
+ELSE
+    print "Try again!"
+END
