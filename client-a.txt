@@ -1,4 +1,49 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+"Guess the Number" game, incorporating the client-facing 
+// 1. Initialization and Welcome Message
+DISPLAY "Welcome to the Guess the Number Game!"
+DISPLAY "I'm thinking of a number between 1 and 10. You have 3 chances to guess it."
+
+// 2. Generate Random Number
+secretNumber = GENERATE_RANDOM_NUMBER(1, 10)
+
+// 3. Game Loop (3 Attempts)
+FOR attempts = 1 TO 3
+    // 3.1 Get Player Input
+    DISPLAY "Attempt " + attempts + ": Enter your guess: "
+    playerGuess = GET_PLAYER_INPUT()
+
+    // 3.2 Input Validation (Optional)
+    IF NOT IS_VALID_NUMBER(playerGuess) OR playerGuess < 1 OR playerGuess > 10 THEN
+        DISPLAY "Invalid input. Please enter a number between 1 and 10."
+        CONTINUE // Skip to next iteration without counting as an attempt
+    END IF
+
+    // 3.3 Compare Guess and Provide Feedback
+    IF playerGuess = secretNumber THEN
+        DISPLAY "Congratulations! You guessed the number!"
+        EXIT LOOP // End the game
+    ELSE IF playerGuess < secretNumber THEN
+        DISPLAY "Too low. Try again!"
+    ELSE
+        DISPLAY "Too high. Try again!"
+    END IF
+END FOR
+
+// 4. Game Over Message
+DISPLAY "Game over. The secret number was " + secretNumber + "."
+Explanation:
+Initialization: Displays a welcome message and instructions to the player.
+Random Number Generation: Generates a random number between 1 and 10 using a suitable function (`GENERATE_RANDOM_NUMBER`).
+Game Loop:
+Iterates 3 times, allowing the player 3 attempts.
+Prompts the player to enter their guess.
+Input Validation (Optional): Checks if the input is a valid number within the specified range. If not, displays an error message and prompts again without counting as an attempt.
+Compare the player's guess with the secret number using conditional statements (`IF-ELSE`).
+Provides feedback to the player (too high, too low, or correct).
+If the player guesses correctly, displays a winning message and exits the loop.
+Game Over: If the player doesn't guess within 3 attempts, displays a game over message and reveals the secret number.
+
 
