@@ -1,4 +1,6 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+Set variables 'north', 'south', 'east' and 'west'
 
