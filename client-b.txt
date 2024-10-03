@@ -1,4 +1,27 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Find the Spot" Mapping Application
+// Initialization
+currentLocation = [startX, startY] // Starting coordinates of the user
+destination = [destX, destY] // Coordinates of the target location
+warehouseMap = LOAD_MAP() // Load the warehouse map data
 
+// Main Loop (until destination is reached)
+WHILE currentLocation != destination DO
+    DISPLAY_MAP(warehouseMap, currentLocation) // Display map with user's location
+    DISPLAY_DIRECTIONS(currentLocation, destination) // Show directions to destination
+
+    userInput = GET_USER_INPUT() // Get user's movement choice (N, S, E, W)
+
+    // Update current location based on user input and map constraints
+    CASE userInput OF
+        "N": currentLocation = currentLocation + 1 // Move North (increment Y)
+        "S": currentLocation = currentLocation - 1 // Move South (decrement Y)
+        "E": currentLocation = currentLocation + 1 // Move East (increment X)
+        "W": currentLocation = currentLocation - 1 // Move West (decrement X)
+        // Add error handling for invalid input or movement outside map boundaries
+    END CASE
+END WHILE
+
+DISPLAY "Destination reached!"
