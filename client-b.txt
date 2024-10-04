@@ -2,3 +2,66 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+//* Customer enters the store and approches the help mapping locator at station E.
+
+Prompt Customer "What can I help you find today?"
+
+Have the program search the database for the product and location of the product
+
+//* Starting from the help desk:
+//* location A is North, then West 
+//* location B is North
+//* location C is North, then East
+//* location D is West
+//* location E is HERE (no movement needed)
+//* location F is East
+//* location G is South, then West
+//* location H is South
+//* location I is South, then East
+
+switch(location) {
+    case 'locationA':
+    have customer walk North, then walk West:
+    break
+
+    case 'locationB':
+    have customer walk North:
+    break
+    
+    case 'locationC':
+    have customer walk North, then walk East:
+    break
+
+    case 'locationD':
+    have customer walk West:
+    break
+
+    case 'locationE':
+    have customer No walking necessary, customer is here:
+    break
+
+    case 'locationF':
+    have customer walk East:
+    break
+
+    case 'locationG':
+    have customer walk South, then walk West:
+    break
+
+    case 'locationH':
+    have customer walk South:
+    break
+
+    case 'locationI':
+    have customer walk South, then walk East:
+    break
+    }
+    print "You have reached your destination!"
+    
+    //* if I was doing a real program I would add "where would you like to go next, if finished, please exit?"
+    //* if the customer entered a product or destination, the program would search for the location 
+    //* Then the switch statement would be used again
+    //* I'd have the program continue until the customer chose exit, then have the program reset on the home page
+
+    
